@@ -195,7 +195,7 @@ namespace WindowsFormsApp4
             // 
             this.scalePlusToolStripMenuItem.Name = "scalePlusToolStripMenuItem";
             this.scalePlusToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.W)));
-            this.scalePlusToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.scalePlusToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.scalePlusToolStripMenuItem.Text = "Plus";
             this.scalePlusToolStripMenuItem.Click += new System.EventHandler(this.scalePlusToolStripMenuItem_Click);
             // 
@@ -203,7 +203,7 @@ namespace WindowsFormsApp4
             // 
             this.scaleToolStripMenuItem.Name = "scaleToolStripMenuItem";
             this.scaleToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
-            this.scaleToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.scaleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.scaleToolStripMenuItem.Text = "Minus";
             this.scaleToolStripMenuItem.Click += new System.EventHandler(this.scaleToolStripMenuItem_Click);
             // 
@@ -279,7 +279,7 @@ namespace WindowsFormsApp4
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Blocknot";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
             this.menuStrip1.ResumeLayout(false);

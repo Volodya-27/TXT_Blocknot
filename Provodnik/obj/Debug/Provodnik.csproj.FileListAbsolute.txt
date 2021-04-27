@@ -1,0 +1,10 @@
+C:\Users\linec\source\repos\WindowsFormsApp4\Provodnik\bin\Debug\Provodnik.exe.config
+C:\Users\linec\source\repos\WindowsFormsApp4\Provodnik\bin\Debug\Provodnik.exe
+C:\Users\linec\source\repos\WindowsFormsApp4\Provodnik\bin\Debug\Provodnik.pdb
+C:\Users\linec\source\repos\WindowsFormsApp4\Provodnik\obj\Debug\Provodnik.csprojAssemblyReference.cache
+C:\Users\linec\source\repos\WindowsFormsApp4\Provodnik\obj\Debug\Provodnik.Form1.resources
+C:\Users\linec\source\repos\WindowsFormsApp4\Provodnik\obj\Debug\Provodnik.Properties.Resources.resources
+C:\Users\linec\source\repos\WindowsFormsApp4\Provodnik\obj\Debug\Provodnik.csproj.GenerateResource.cache
+C:\Users\linec\source\repos\WindowsFormsApp4\Provodnik\obj\Debug\Provodnik.csproj.CoreCompileInputs.cache
+C:\Users\linec\source\repos\WindowsFormsApp4\Provodnik\obj\Debug\Provodnik.exe
+C:\Users\linec\source\repos\WindowsFormsApp4\Provodnik\obj\Debug\Provodnik.pdb
