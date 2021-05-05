@@ -38,6 +38,7 @@ namespace WindowsFormsApp4
 
         private void textBox_Blocknot_KeyPress(object sender, KeyPressEventArgs e)  
         {
+          
             if (e.KeyChar == Convert.ToChar(Keys.Enter) || e.KeyChar == Convert.ToChar(Keys.Back))
                 a--;
             if (textBox_Blocknot.Text == "")
@@ -86,7 +87,7 @@ namespace WindowsFormsApp4
             }
             else
             {
-                saveToolStripMenuItem_Click(sender, e);
+                saveAsToolStripMenuItem_Click_1(sender, e);
             }
         }
 
@@ -151,7 +152,10 @@ namespace WindowsFormsApp4
 
             }
         }
-
+        private void cancelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox_Blocknot.Undo();  //типу ctrl+z
+        }
 
         private void saveAsToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
@@ -163,9 +167,6 @@ namespace WindowsFormsApp4
                 path = saveFile.FileName;
             }
         }
-
-
-
 
         private void scaleToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -186,14 +187,9 @@ namespace WindowsFormsApp4
                 textBox_Blocknot.ForeColor = fontDialog1.Color;
             }
         }
-
-  
-
         private void Form1_SizeChanged(object sender, EventArgs e)
         {
             textBox_Blocknot.Size = new Size(this.Width-40, this.Height-97);
-        }
-
-      
+        }      
     }
 }

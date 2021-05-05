@@ -53,6 +53,7 @@ namespace WindowsFormsApp4
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.textBox_Blocknot = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cancelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -78,7 +79,8 @@ namespace WindowsFormsApp4
             this.openToolStripMenuItem,
             this.saveToolStripMenuItem,
             this.saveAsToolStripMenuItem,
-            this.exitToolStripMenuItem});
+            this.exitToolStripMenuItem,
+            this.cancelToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
@@ -139,7 +141,7 @@ namespace WindowsFormsApp4
             // 
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.copyToolStripMenuItem.Text = "Copy";
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
@@ -147,7 +149,7 @@ namespace WindowsFormsApp4
             // 
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
             this.cutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.cutToolStripMenuItem.Text = "Cut";
             this.cutToolStripMenuItem.Click += new System.EventHandler(this.cutToolStripMenuItem_Click);
             // 
@@ -155,7 +157,7 @@ namespace WindowsFormsApp4
             // 
             this.cutAllToolStripMenuItem.Name = "cutAllToolStripMenuItem";
             this.cutAllToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.cutAllToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cutAllToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.cutAllToolStripMenuItem.Text = "Copy all";
             this.cutAllToolStripMenuItem.Click += new System.EventHandler(this.cutAllToolStripMenuItem_Click);
             // 
@@ -163,7 +165,7 @@ namespace WindowsFormsApp4
             // 
             this.pustToolStripMenuItem.Name = "pustToolStripMenuItem";
             this.pustToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.pustToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pustToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.pustToolStripMenuItem.Text = "Insert";
             this.pustToolStripMenuItem.Click += new System.EventHandler(this.pustToolStripMenuItem_Click);
             // 
@@ -171,7 +173,7 @@ namespace WindowsFormsApp4
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
             this.searchToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.searchToolStripMenuItem.Text = "Search";
             this.searchToolStripMenuItem.Click += new System.EventHandler(this.searchToolStripMenuItem_Click);
             // 
@@ -195,7 +197,7 @@ namespace WindowsFormsApp4
             // 
             this.scalePlusToolStripMenuItem.Name = "scalePlusToolStripMenuItem";
             this.scalePlusToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.W)));
-            this.scalePlusToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.scalePlusToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.scalePlusToolStripMenuItem.Text = "Plus";
             this.scalePlusToolStripMenuItem.Click += new System.EventHandler(this.scalePlusToolStripMenuItem_Click);
             // 
@@ -203,7 +205,7 @@ namespace WindowsFormsApp4
             // 
             this.scaleToolStripMenuItem.Name = "scaleToolStripMenuItem";
             this.scaleToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
-            this.scaleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.scaleToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.scaleToolStripMenuItem.Text = "Minus";
             this.scaleToolStripMenuItem.Click += new System.EventHandler(this.scaleToolStripMenuItem_Click);
             // 
@@ -267,6 +269,14 @@ namespace WindowsFormsApp4
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
+            // cancelToolStripMenuItem
+            // 
+            this.cancelToolStripMenuItem.Name = "cancelToolStripMenuItem";
+            this.cancelToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
+            this.cancelToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.cancelToolStripMenuItem.Text = "Cancel";
+            this.cancelToolStripMenuItem.Click += new System.EventHandler(this.cancelToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -317,6 +327,7 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.ToolStripMenuItem scaleToolStripMenuItem;
         private System.Windows.Forms.TextBox textBox_Blocknot;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ToolStripMenuItem cancelToolStripMenuItem;
     }
 }
 

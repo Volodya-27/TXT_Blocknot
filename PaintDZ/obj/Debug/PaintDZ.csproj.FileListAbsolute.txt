@@ -1,0 +1,10 @@
+C:\Users\linec\source\repos\WindowsFormsApp4\PaintDZ\bin\Debug\PaintDZ.exe.config
+C:\Users\linec\source\repos\WindowsFormsApp4\PaintDZ\bin\Debug\PaintDZ.exe
+C:\Users\linec\source\repos\WindowsFormsApp4\PaintDZ\bin\Debug\PaintDZ.pdb
+C:\Users\linec\source\repos\WindowsFormsApp4\PaintDZ\obj\Debug\PaintDZ.csprojAssemblyReference.cache
+C:\Users\linec\source\repos\WindowsFormsApp4\PaintDZ\obj\Debug\PaintDZ.Form1.resources
+C:\Users\linec\source\repos\WindowsFormsApp4\PaintDZ\obj\Debug\PaintDZ.Properties.Resources.resources
+C:\Users\linec\source\repos\WindowsFormsApp4\PaintDZ\obj\Debug\PaintDZ.csproj.GenerateResource.cache
+C:\Users\linec\source\repos\WindowsFormsApp4\PaintDZ\obj\Debug\PaintDZ.csproj.CoreCompileInputs.cache
+C:\Users\linec\source\repos\WindowsFormsApp4\PaintDZ\obj\Debug\PaintDZ.exe
+C:\Users\linec\source\repos\WindowsFormsApp4\PaintDZ\obj\Debug\PaintDZ.pdb
